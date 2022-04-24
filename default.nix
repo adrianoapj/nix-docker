@@ -21,6 +21,7 @@ let
   nixconf = ''
     build-users-group = nixbld
     sandbox = false
+    filter-syscalls = false
   '';
 
   passwd = ''
